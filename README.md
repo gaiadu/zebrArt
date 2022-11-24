@@ -1,5 +1,5 @@
 # zebrArt
-## Progetto Physical Computing - Acomo, Corippo, Durio SID3 
+## Progetto Physical Computing - IAAD - SID3 ACD
 
 ### Contesto 
 
