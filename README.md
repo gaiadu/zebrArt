@@ -14,3 +14,8 @@ Installazione artistica che consiste in uno show di led a lato delle strisce ped
 ### Funzionamento 
 
 A bordo strada vicino alle strisce pedonali vi sono due colonnine con dentro un sensore di movimento il quale, rilevando la persona che passa sulle strisce in base alla sua posizione, invia l'input al led nel punto in cui la persona si trova, il quale restituisce la luce che si accende in modalità fade.
+
+### Esempio 
+
+![FOTO] (Vuoto.2.pdf)
+
