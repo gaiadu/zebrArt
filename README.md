@@ -10,3 +10,7 @@ Per dare un'aggiunta al nostro progetto artistico ci saranno dei dati rilevati p
 ### Concept 
 
 Installazione artistica che consiste in uno show di led a lato delle strisce pedonali che accompagnano chi sta attraversando il corso senza semaforo e rendono il pedone più visibile alle macchine che si accingono a passare 
+
+### Funzionamento 
+
+A bordo strada vicino alle strisce pedonali vi sono due colonnine con dentro un sensore di movimento il quale, rilevando la persona che passa sulle strisce in base alla sua posizione, invia l'input al led nel punto in cui la persona si trova, il quale restituisce la luce che si accende in modalità fade.
