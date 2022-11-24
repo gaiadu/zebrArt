@@ -1,2 +1,2 @@
-# zebrArt
-Progetto Physical Computing - Acomo, Corippo, Durio SID3
+# # zebrArt
+# Progetto Physical Computing - Acomo, Corippo, Durio SID3
