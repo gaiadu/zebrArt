@@ -17,5 +17,5 @@ A bordo strada vicino alle strisce pedonali vi sono due colonnine con dentro un 
 
 ### Esempio 
 
-![FOTO] (Vuoto.2.pdf)
+![FOTO] (Vuoto 2.pdf)
 
