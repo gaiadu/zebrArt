@@ -1,0 +1,37 @@
+#include "Ultrasonic.h"
+
+Ultrasonic ultrasonic(3);
+
+#include "FastLED.h"
+#define N 42
+CRGB leds[N];
+
+void setup()
+{
+  Serial.begin(9600);
+  FastLED.addLeds<NEOPIXEL, 6>(leds, N);
+  FastLED.addLeds<NEOPIXEL, 7>(leds, N);
+
+}
+void loop()
+{
+  long RangeInCentimeters;
+  int numLed;
+
+  RangeInCentimeters = ultrasonic.MeasureInCentimeters(); // two measurements should keep an interval
+  Serial.println(RangeInCentimeters);//0~400cm
+
+  numLed = map(RangeInCentimeters, 14, 69, 0, 41);
+
+  for (uint8_t i=0; i<N; i++) {
+    if (i == numLed) {
+      leds[i] = CRGB:: White;
+    }
+    else {
+      leds[i].fadeToBlackBy(70);
+    }
+  }
+  
+  FastLED.show();
+  delay(50);
+}
