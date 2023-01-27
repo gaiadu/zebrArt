@@ -1,19 +1,40 @@
 # zebrArt
 ## Progetto Physical Computing - IAAD - SID3 ACD
+## Lucrezia Acomo, Sofia Corippo, Gaia Durio
 
 ### Contesto 
 
-In un mondo in cui la strada è solo un luogo di passaggio e non d’interazione, un mondo in cui tutti siamo più distratti da continui input digitali abbiamo deciso di portare all’attenzione un tema di sicurezza e territorio per invitare le persone ad attraversare coscienziosamente sulle strisce pedonali e ricordare alle autovetture che la strada non appartiene solo a loro. 
-Abbiamo preso come riferimento le strisce pedonali senza semaforo e abbiamo pensato ad un sistema di webcam che percepisca quando una persona sta attraversando così da far accendere le luci che sono direttamente collegate alle videocamere. Il movimento delle luci sarà fluido e risulterà molto piacevole alla visione. 
+In un mondo in cui la strada è solo un luogo di passaggio e non d’interazione abbiamo deciso di portare all’attenzione un tema di sicurezza e territorio. Progettato sulle persone per attraversare coscienziosamente sulle strisce pedonali e ricordare alle autovetture che la strada non appartiene solo a loro. 
+Abbiamo preso come riferimento l'attraversamento pedonale tra Via S.Teresa e Piazza S. Carlo. Essendo senza semaforo abbiamo pensato ad un sistema di webcam che percepisca quando una persona sta attraversando così da far accendere le luci che sono direttamente collegate alle videocamere. Il movimento delle luci sarà fluido e risulterà molto piacevole alla visione. 
 Per dare un'aggiunta al nostro progetto artistico ci saranno dei dati rilevati prima e durante l’installazione che faranno vedere il cambiamento di quante persone attraversino veramente sulle strisce e chi no.
 
 ### Concept 
 
 Installazione artistica che consiste in uno show di led a lato delle strisce pedonali che accompagnano chi sta attraversando il corso senza semaforo e rendono il pedone più visibile alle macchine che si accingono a passare 
 
-### Funzionamento 
+### Hardware 
 
-A bordo strada vicino alle strisce pedonali vi sono due colonnine con dentro un sensore di movimento il quale, rilevando la persona che passa sulle strisce in base alla sua posizione, invia l'input al led nel punto in cui la persona si trova, il quale restituisce la luce che si accende in modalità fade.
+Nel bordo della strada, vicino alle strisce pedonali vi è una colonnina che contiene un sensore di movimento.  
+Rilevando la persona che passa sulle strisce in base alla sua posizione, il sensore invia l'input al led. Il led restituisce la luce bianca che si accende in modalità fade.
+
+### Software 
+
+Su Ardunino abbiamo scritto un codice per far si che il sensore mandi l’input di accendere la luce alla stripled abbiamo scritto il codice . 
+Abbiamo calcolato lo spazio entro il quale far accendere la luce in modalità fade per la lunghezza dell’attraversamento pedonale. 
+Infine per far in modo che il sensore rilevasse solo ciò che sta all’interno delle strisce pedonali abbiamo limitato il raggio di rilevamento.
+Una volta scritto e testato il codice ci siamo rese conto però di una piccola discrasia nella percezione del sensore. Infatti è stato inserito un codice per la "smoothness" del sensore per correggere la poca precisione.
+
+### Impatto
+
+Una volta che è stato installato il meccanismo, le persone hanno iniziato ad attraversare sulle strisce pedonali.
+Incuriositi dall'installazione artistica le persone tendono a usare l'attraversamento pedonale per vedere le luci accendersi e spegnersi. Quindi abbiamo osservarto come un comportamento possa essere corretto da semplici azioni di diletto.
+
+### Comunicazione
+
+- collaborazione con il comune di Torino
+- campagna online social
+- qr code che rimanda al concept del progetto
+- rassegna stampa da parte di giornalisti d'arte  
 
 ### Esempio 
 
