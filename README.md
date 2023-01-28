@@ -36,7 +36,50 @@ Incuriositi dall'installazione artistica le persone tendono a usare l'attraversa
 - qr code che rimanda al concept del progetto
 - rassegna stampa da parte di giornalisti d'arte  
 
-### Esempio 
+### Codice 
+#include "Ultrasonic.h"
 
-![FOTO] (Vuoto 2.pdf)
+Ultrasonic ultrasonic(3);
+
+#include "FastLED.h"
+#define N 42
+CRGB leds[N];
+
+long oldRange;
+
+void setup()
+{
+  Serial.begin(9600);
+  FastLED.addLeds<NEOPIXEL, 6>(leds, N);
+  FastLED.addLeds<NEOPIXEL, 7>(leds, N);
+  oldRange = 0;
+}
+void loop()
+{
+  long RangeInCentimeters;
+  int numLed;
+
+  RangeInCentimeters = ultrasonic.MeasureInCentimeters(); // two measurements should keep an interval
+  
+  long avgInCentimeters = (oldRange + RangeInCentimeters)/2;
+
+oldRange = avgInCentimeters; 
+
+
+  Serial.println(RangeInCentimeters);//0~400cm
+
+  numLed = map(RangeInCentimeters, 8, 69, 0, 41);
+
+  for (uint8_t i=0; i<N; i++) {
+    if (i == numLed) {
+      leds[i] = CRGB:: White;
+    }
+    else {
+      leds[i].fadeToBlackBy(60);
+    }
+  }
+  
+  FastLED.show();
+  delay(30);
+}
 
