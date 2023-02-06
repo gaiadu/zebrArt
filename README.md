@@ -88,3 +88,4 @@ oldRange = avgInCentimeters;
   delay(30);
 }
 
+![Ringraziamenti](https://user-images.githubusercontent.com/117364775/217067748-b7c79690-0784-4a54-83a4-4d82b397ca01.png)
