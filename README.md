@@ -5,6 +5,8 @@
 
 ### Contesto 
 
+![piazza san carlo](https://user-images.githubusercontent.com/117364775/217066559-6d960420-5fcb-4e2a-b93b-6f2d119a62da.jpeg)
+
 In un mondo in cui la strada è solo un luogo di passaggio e non d’interazione abbiamo deciso di portare all’attenzione un tema di sicurezza e territorio. Progettato sulle persone per attraversare coscienziosamente sulle strisce pedonali e ricordare alle autovetture che la strada non appartiene solo a loro. 
 Abbiamo preso come riferimento l'attraversamento pedonale tra Via S.Teresa e Piazza S. Carlo. Essendo senza semaforo abbiamo pensato ad un sistema di webcam che percepisca quando una persona sta attraversando così da far accendere le luci che sono direttamente collegate alle videocamere. Il movimento delle luci sarà fluido e risulterà molto piacevole alla visione. 
 Per dare un'aggiunta al nostro progetto artistico ci saranno dei dati rilevati prima e durante l’installazione che faranno vedere il cambiamento di quante persone attraversino veramente sulle strisce e chi no.
