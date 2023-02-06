@@ -1,6 +1,6 @@
 ![Zebra logo](https://user-images.githubusercontent.com/117364775/217061291-ccd2e077-b383-4c09-a904-79de1f90c017.png)
 
-## Progetto Physical Computing - IAAD - SID3 ACD
+## Progetto Physical Computing - IAAD - SID3 
 ## Lucrezia Acomo, Sofia Corippo, Gaia Durio
 
 ### Contesto 
